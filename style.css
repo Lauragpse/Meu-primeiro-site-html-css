@@ -1,0 +1,186 @@
+
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700;1,900&display=swap');
+
+/*
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+#174b80
+#74ABCFF
+#2E96FF
+#526D87
+#2578CC
+*/
+
+:root{
+    --cor1: #663B75;
+    --cor2: #E9C5F7;
+    --cor3: #D57BF5;
+    --cor4: #6F5E75;
+    --cor5: #A861C2;
+}
+
+body{
+    background-color:var(--cor2);
+    font-family: 'Roboto',sans-serif;
+}
+
+header{
+    /*linear-gradient(direcao, cor1, cor2)*/
+    
+    min-height: 100px;
+    text-align: center;/*left, right, justify, center*/
+    padding-top: 50px;
+    background-color: black;
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+header > h1 {
+   
+
+        font: 700 4em/1 "Oswald", sans-serif;
+        letter-spacing: 0;
+        padding: .25em 0 .325em;
+        display: block;
+        margin: 0 auto;
+        text-shadow: 0 0 80px rgba(255,255,255,.5);
+  
+  /* Clip Background Image */
+  
+        background: url(listras\ css\ roxa.jpg) repeat-y;
+        -webkit-background-clip: text;
+        background-clip: text;
+  
+  /* Animate Background Image */
+  
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: aitf 40s linear infinite; 
+  
+  /* Activate hardware acceleration for smoother animations */
+  
+        -webkit-transform: translate3d(0,0,0);
+        -webkit-backface-visibility: hidden; 
+  
+    }
+  
+  
+  /* Animate Background Image */
+  
+  @-webkit-keyframes aitf {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
+  }
+
+
+nav {
+    background-color: var(--cor1);
+    padding: 10px;
+    box-shadow: 0px 2px 4px 2px black;
+    margin-top: 5px;
+    text-align: center;
+}
+
+nav > a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.6s;
+    font-weight: 700px;
+
+
+}
+
+nav > a:hover {
+    background-color: var(--cor2);
+    color: var(--cor1)
+}
+
+main {
+    background-color: white;
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+    text-align: center;
+}
+
+article > h2{
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    color: var(--cor1);
+    text-align: center;
+    padding: 2px;
+
+}
+
+article > p{
+    font-size: 18px;
+    text-align: justify;
+    margin: 15px 0px;
+    text-indent: 40px;
+}
+
+img {
+    width: 30%;
+    border: 6px solid var(--cor4);
+}
+
+pre{
+    font-size: 16px;
+    text-align: center;
+
+}
+iframe{
+    margin: 15px;
+    border: 6px;
+    width: 80%;
+}
+figcaption{
+    font-size: 14px;
+    
+}
+aside{
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+aside > ul{
+    list-style-position: inside;
+    text-align: left;
+}
+
+aside > h3{
+    background-color:var(--cor1) ;
+    padding: 10px;
+    margin: 15px -10px 0 0 ;
+    color: var(--cor2);
+}
+
+footer{
+    font-size: 13px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+ /* obras */
+
+ul{
+    text-align: left;
+}
