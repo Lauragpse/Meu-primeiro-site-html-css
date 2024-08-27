@@ -1,3 +1,2 @@
 # Meu-primeiro-site-html-css
-
-pagina inici  é o index.html, obras.html e curiosidadws.html sao as outras guias do site.
+<p><a href='https://lauragpse.github.io/Meu-primeiro-site-html-css/'>Clique aqui para acessar!</a></p>
